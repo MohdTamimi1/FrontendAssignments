@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2c2c2c;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+}
+
+.navbar h1 {
+    margin-left: 60px;
+}
+.navBoxBg {
+    width: 200px;
+    background-color: #00000080;
+    padding: 10px;
+    display: flex;
+    margin-right: 60px;
+    justify-content: space-around;
+    border-radius: 50px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.cart {
+    padding: 5px 15px;
+    background-color: brown;
+    border-radius: 40%;
+    font-size: smaller;
+}
+
+.imgContainer {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.headerImg {
+    width: 110%;
+    height: 100%;
+    margin-top: -100px;
+    margin-left: -20px;
+    object-fit: cover;
+    transform: rotate(-4.5deg);
+}
+
+.main {
+    width: 70%;
+    position: relative;
+    top: -200px;
+    margin: auto;
+    background-color: #292929;
+    box-shadow: 1px -1px 10px 15px #1b1b1b50;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+main p {
+    font-weight: 300;
+}
+
+.mainP {
+    margin: 15px;
+}
+
+.orders {
+    width: 80%;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    margin-top: -160px;
+    margin-bottom: 150px;
+    border-radius: 20px;
+    color: #262626;
+    padding-bottom: 70px;
+    padding-top: 5px;
+}
+
+.order {
+    margin: auto;
+    position: relative;
+    top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftSide {
+    margin-left: 30px;
+}
+
+.leftSide p {
+    font-style: italic;
+}
+
+.price {
+    color: brown;
+}
+
+.borderLine {
+    margin: 40px 30px 0px 30px;
+    border: 1px solid grey;
+}
+
+.rightSide {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.order label {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.rightSide button {
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+    border: none;
+    margin-top: 15px;
+    width: 75px;
+}
+
+.rightSide input {
+    padding: 5px;
+    width: 45px;
+    border: 1px solid #80808050;
+    border-radius: 5px;
+}

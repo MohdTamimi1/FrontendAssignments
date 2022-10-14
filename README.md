@@ -1,3 +1,3 @@
 # FrontendAssignments
 
- Frontend Web Programming Assignments - Vanier
+ Frontend Web Programming Assignments - Vanier College

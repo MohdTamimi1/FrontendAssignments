@@ -62,7 +62,36 @@ header {
     color: #3c3b3b60;
 }
 
-@media only screen and (max-width: 600px) {
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.gridImg {
+    width: 100%;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    flex-wrap: wrap;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+@media (max-width: 1000px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
     header {
         background-color: #1f7057;
     }
@@ -103,5 +132,10 @@ header {
 
     .dropdown:hover .dropList {
         display: block;
+    }
+
+    .column {
+        flex: 100%;
+        max-width: 100%;
     }
 }

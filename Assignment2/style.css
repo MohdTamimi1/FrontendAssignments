@@ -17,7 +17,7 @@ header {
     height: auto;
 }
 
-.hamIcon {
+.menuIcon {
     display: none;
 }
 
@@ -78,7 +78,7 @@ header {
         padding: 10px;
     }
 
-    .hamIcon {
+    .menuIcon {
         display: block;
         width: 20%;
         margin-right: -210px;

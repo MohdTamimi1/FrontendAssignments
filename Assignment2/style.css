@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    color: #3c3b3b;
+}
+
+header {
+    background-color: #ebebeb;
+    width: 100%;
+    height: auto;
+}
+
+.hamIcon {
+    display: none;
+}
+
+.navbar {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    max-width: 1920px;
+    height: auto;
+    padding: 10px;
+}
+
+.logo {
+    margin-left: 10px;
+    width: 40%;
+}
+
+.logo h1 {
+    font-weight: 400;
+}
+
+.dropList {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.dropList a {
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+.home {
+    color: #3c3b3b;
+}
+
+.about {
+    color: #3c3b3b99;
+}
+
+.contact {
+    color: #3c3b3b60;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        background-color: #1f7057;
+    }
+
+    .navbar {
+        padding: 0px;
+        margin-right: 0px;
+        justify-content: space-between;
+    }
+
+    .logo {
+        color: #ebebeb;
+        padding: 10px;
+    }
+
+    .hamIcon {
+        display: block;
+        width: 20%;
+        margin-right: -210px;
+    }
+
+    .dropList {
+        display: none;
+        position: absolute;
+        background-color: #3c3b3b;
+        min-width: auto;
+    }
+
+    .dropList a {
+        color: #ebebeb;
+        padding: 12px 16px;
+        display: block;
+    }
+
+    .dropList a:hover {
+        background-color: #1f7057;
+    }
+
+    .dropdown:hover .dropList {
+        display: block;
+    }
+}
